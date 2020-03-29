@@ -102,3 +102,5 @@ dist
 
 # TernJS port file
 .tern-port
+
+./config/watchful-lotus-244316-firebase-adminsdk-6q28k-9724c6f3b0.json
