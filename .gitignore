@@ -104,4 +104,4 @@ dist
 .tern-port
 
 # Firebase Admin SDk Key
-config/watchful-lotus-244316-8ab775285b53.json
+src/config/watchful-lotus-244316-8ab775285b53.json
