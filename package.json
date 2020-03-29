@@ -1,0 +1,24 @@
+{
+  "name": "multify",
+  "version": "1.0.0",
+  "description": "SNS & FCM test client",
+  "main": "src/app.js",
+  "bin": {
+    "multify": "src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deniss-simanis/multify.git"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.648.0",
+    "firebase-admin": "^8.10.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deniss Simanis",
+  "license": "MIT"
+}
