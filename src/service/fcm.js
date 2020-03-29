@@ -1,7 +1,7 @@
 // Connect Admin SDK
 const firebaseAdmin = require("firebase-admin");
 
-const serviceAccount = require("../config/watchful-lotus-244316-firebase-adminsdk-6q28k-9724c6f3b0.json");
+const serviceAccount = require("../config/watchful-lotus-244316-af8f646cf85f.json");
 
 firebaseAdmin.initializeApp({
   credential: firebaseAdmin.credential.cert(serviceAccount),
