@@ -105,3 +105,4 @@ dist
 
 # Firebase Admin SDk Key
 src/config/watchful-lotus-244316-af8f646cf85f.json
+src/config/aws-config.json
