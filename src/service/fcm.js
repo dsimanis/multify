@@ -27,8 +27,13 @@ module.exports = {
 
     firebaseAdmin.messaging().send(data)
       .then((response) => {
-        console.log(`Message "${dataMessage.data.content}" was sent to the topic ${dataMessage.topic}`);
-        console.log('MessageID is:', response);
+        // console.log(`Message "${dataMessage.data.content}" was sent to the topic ${dataMessage.topic}`);
+        const table = {
+          "Region": "*",
+          "Topic": dataMessage.topic,
+          "Message Id": response
+      };
+      console.table(table);
       })
       .catch((error) => {
         console.log('Error sending message:', error);
