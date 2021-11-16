@@ -11,7 +11,7 @@
     "url": "git+https://github.com/deniss-simanis/multify.git"
   },
   "dependencies": {
-    "aws-sdk": "^2.648.0",
+    "aws-sdk": "^2.814.0",
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
